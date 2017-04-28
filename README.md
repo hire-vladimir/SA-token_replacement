@@ -1,6 +1,8 @@
 # Into
 Allows $token$ replacement with field values
 
+# Disclamer
+Command should be treated as prototype/example. Has not been fully tested, no logging exists.
 
 # Usage
 ```
@@ -24,3 +26,6 @@ index="notable"
 
 # Screenshot
 ![SA-token_replacement_overview](https://raw.githubusercontent.com/hire-vladimir/SA-token_replacement/master/static/screenshot.png)
+
+# Legal
+* *Splunk* is a registered trademark of Splunk, Inc.
