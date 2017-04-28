@@ -2,7 +2,7 @@
 Allows $token$ replacement with field values
 
 
-# Usage:
+# Usage
 ```
  | localop | stats count
 
@@ -21,3 +21,6 @@ index="notable"
 
 | replacetokens fields="rule_title,rule_description"
 ```
+
+# Screenshot
+![SA-token_replacement_overview](https://raw.githubusercontent.com/hire-vladimir/SA-token_replacement/master/static/screenshot.png)
