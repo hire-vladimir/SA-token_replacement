@@ -1,7 +1,7 @@
 # Into
 Allows $token$ replacement with field values
 
-# Disclamer
+# Disclaimer
 Command should be treated as prototype/example. Has not been fully tested, no logging exists.
 
 # Usage
