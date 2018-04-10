@@ -22,7 +22,7 @@ if __name__ == '__main__':
             normalized_text = row[token]
             for t in token_fields:
                 if t in row:
-                    normalized_text = normalized_text.replace('$%s$'%t, row[t])
+                    normalized_text = normalized_text.replace('$%s$'%t, str(row[t]))
             row[token + '_normalized'] = normalized_text
 
     si.outputResults(results)
