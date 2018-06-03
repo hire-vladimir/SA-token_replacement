@@ -1,7 +1,6 @@
-# Note
-As of Splunk Enterprise Security 5.0 and greater, this app has been deprecated in favor of native **expandtoken** command that ships with product.
+# As of Splunk Enterprise Security 5.0 and greater, this app has been deprecated in favor of native **expandtoken** command that ships with the product.
 
-## Usage
+## *expandtoken* usage
 
 For targeted fields:
 ```
@@ -24,7 +23,7 @@ For any field:
 ```
 
 
-
+---
 # Into
 Allows $token$ replacement with field values
 
