@@ -1,3 +1,30 @@
+# Note
+As of Splunk Enterprise Security 5.0 and greater, this app has been deprecated in favor of native **expandtoken** command that ships with product.
+
+## Usage
+
+For targeted fields:
+```
+ | localop | stats count
+
+ | eval rule_title="hello $name$", rule_description="this means $name$, is $value$"
+ | eval name="vladimir", value="awesome"
+
+ | expandtoken rule_title rule_description
+```
+
+For any field:
+```
+ | localop | stats count
+
+ | eval rule_title="hello $name$", rule_description="this means $name$, is $value$"
+ | eval name="vladimir", value="awesome"
+
+ | expandtoken
+```
+
+
+
 # Into
 Allows $token$ replacement with field values
 
